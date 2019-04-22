@@ -6,5 +6,7 @@ The system conform of a Front, Middle and Back end.
 There is lead developer for each section. 
 
 Front - Chika
+
 Middel - Me(Andres)
+
 Back - Princewill. 
