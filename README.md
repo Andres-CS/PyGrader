@@ -1,6 +1,15 @@
 # NJIT-CS490-PyExamGrader
 This is an online Python exam grading system.
 
+**_ IMPORTANT:_**
+
+This Repo belongs to the middle section is not the entire system. Please continue reading.
+
+Also, the main file here, the actual grading systme, si **m_StdEXAM_.php**. Which does the acutal grading.
+
+Last, given the way the info was passed from the **front** I created a __parsing__ file that structure the data for my better use.
+
+
 **Objective of the Project:**
 
 Create and developed a system similar to Moodle or Canvas where a student logs in and takes an exam created by a professor. The systme lets the student takes the exam, submit it and show its scores. Professor, as well, has a profile where he logs in and is able to create questions which are deposited in a question bank. He then can proced to create and exam out of the questions in the questions bank and publish the exam for the students to take.
@@ -15,7 +24,7 @@ Once the student is done taking the exam, he submits the exam then a grading sys
 
 **Architecure:**
 
-Front - Middle - Back 
+Front - **Middle** - Back 
  
  or 
  
