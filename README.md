@@ -65,4 +65,4 @@ To see the corresponding code of each section please click the link.
 
 **Images:**
 
-
+You can take a look at how the project looks in the images folder.
