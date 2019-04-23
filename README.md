@@ -1,7 +1,7 @@
 # NJIT-CS490-PyExamGrader
 This is an online Python exam grading system.
 
-**_ IMPORTANT:_**
+**__IMPORTANT:__**
 
 This Repo belongs to the middle section is not the entire system. Please continue reading.
 
