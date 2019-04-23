@@ -3,7 +3,7 @@ This is an online Python exam grading system.
 
 **__IMPORTANT:__**
 
-This Repo belongs to the middle section is not the entire system. Please continue reading.
+This Repo belongs to the middle section. It is not the entire system. Please continue reading.
 
 Also, the main file here, the actual grading systme, si **m_StdEXAM_.php**. Which does the acutal grading.
 
