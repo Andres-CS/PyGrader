@@ -3,17 +3,19 @@ Online student Python exam grading system. FRONT-MIDDLE-BACK architecture.
 
 The system conforms of a Front, Middle and Back end.
 
-There is lead developer for each section. 
+There is a lead developer for each section. 
+
+--------------------------------
 
 Front - Chika
 
-Front - MOises
+Front - Moises
 
 Front - Rimon
 
 --------------------------------
 
-Middel - Me(Andres)
+Middle - Me(Andres)
 
 --------------------------------
 
@@ -21,4 +23,4 @@ Back - Princewill. https://github.com/PrincewillO
 
 --------------------------------
 
-To see the Corresponding code of each section please click the link.
+To see the corresponding code of each section please click the link.
