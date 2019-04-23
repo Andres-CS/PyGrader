@@ -13,7 +13,7 @@ Once the student is done taking the exam, he submits the exam then a grading sys
 *  **Constraints:** Some specific constrains (FOR, PRINT, WHILE) must be in the answer of the student. 
 
 
-**Architecure**
+**Architecure:**
 
 Front - Middle - Back 
  
@@ -22,7 +22,7 @@ Front - Middle - Back
  Modle View Controller 
  
  
- **Notes**
+ **Notes:**
  
  For this project we had 3 front-ends, a single middle and back.
  
