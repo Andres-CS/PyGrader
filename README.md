@@ -13,9 +13,25 @@ Once the student is done taking the exam, he submits the exam then a grading sys
 *  **Constraints:** Some specific constrains (FOR, PRINT, WHILE) must be in the answer of the student. 
 
 
-The system conforms of a Front, Middle and Back end.
+**Architecure**
 
-There is a lead developer for each section. 
+Front - Middle - Back 
+ 
+ or 
+ 
+ Modle View Controller 
+ 
+ 
+ **Notes**
+ 
+ For this project we had 3 front-ends, a single middle and back.
+ 
+ Please note that we are not positng the API structure (how data was transmitted across the system) in order for future student to develop their on way.
+ 
+
+**Developers:**
+
+Below you will find the team who created this system and their respective GitHub links. 
 
 --------------------------------
 
