@@ -1,16 +1,16 @@
 # NJIT-CS490-PyExamGrader
 This is an online Python exam grading system.
 
-Objective of the Project:
+**Objective of the Project:**
 
 Create and developed a system similar to Moodle or Canvas where a student logs in and takes an exam created by a professor. The systme lets the student takes the exam, submit it and show its scores. Professor, as well, has a profile where he logs in and is able to create questions which are deposited in a question bank. He then can proced to create and exam out of the questions in the questions bank and publish the exam for the students to take.
 
 Once the student is done taking the exam, he submits the exam then a grading system reviews the answers and grades it according to a set of parameters stablished:
 
-* Function name is correct accroding to question estament.
-* Colon symbol is present according to Python syntax. If not the system inputs the colon in order for Python script to be able to run.
-* Test Cases are passed. System inputs test cases in functions created by the student and executes them.
-* Constraints. Some specific constrains (FOR, PRINT, WHILE) must be in the answer of the student. 
+*  **Function name:** function name is written as specified in question estament.
+* **Colon symbol:** is present according to Python syntax. If not the system inputs the colon in order for Python script to be able to run.
+*  **Test Cases:** the grading system inputs test cases in functions created by the student and executes them.
+*  **Constraints:** Some specific constrains (FOR, PRINT, WHILE) must be in the answer of the student. 
 
 
 The system conforms of a Front, Middle and Back end.
