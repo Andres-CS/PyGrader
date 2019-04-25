@@ -46,7 +46,7 @@ Below you will find the team who created this system and their respective GitHub
 
 Front - Chika
 
-Front - Moises
+Front - Moises. https://github.com/Mohdez
 
 Front - Rimon
 
