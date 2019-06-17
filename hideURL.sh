@@ -33,7 +33,7 @@ FID=`ls $uPath`
 declare -a allFiles=($FID)
 declare -a dirFiles=()
 declare -a regFiles=()
-declare -a urlLIne=()
+declare -a urlLine=()
 
 for f in ${allFiles[@]}
 do 
@@ -51,12 +51,29 @@ do
     fi
 done 
 
+#Find line num that contains the RegEx pattern looked for and store it. 
 for j in ${regFiles[@]}
 do
-    urlLIne[${#urlLIne[@]}]=`grep -n https[:/.~/\a-zA-Z0-9]* $j | cut -d: -f 1`
+    linum=`grep -n https[:/.~/\a-zA-Z0-9]* $j | cut -d: -f 1`
+    if [ ! linum == "" ]
+    then
+        urlLine[${#urlLine[@]}]=$linum
+    #else
+        #urlLine[${#urlLine[@]}]=0
+    fi
 done
 
-for x in ${urlLIne[@]}
+
+
+for ((i=0; i<${#regFiles[@]};i++))
 do
-    echo $x
+    if [ "${urlLine[$i]}" == "" ]
+    then
+        #echo "test"
+        printf "%s | %s | %s" "${regFiles[$i]}" "__" "None"
+    else
+        #echo "w"
+        printf "%s | %d | %s" "${regFiles[$i]}" ${urlLine[$i]} "$(sed -n "${urlLine[$i]} p" ${regFiles[$i]})"
+    fi
+    echo
 done
