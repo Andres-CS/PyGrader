@@ -14,6 +14,11 @@ do
             ;;
         e)
             uExt=${OPTARG}
+            if [ $uExt == "" ]
+            then
+                uExt=$(read -p "Extension file: ")
+                echo $uExt
+            fi
             ;;
         :)
             echo "PLEASE PROVIE A path AND A FILE extension."
@@ -28,6 +33,7 @@ FID=`ls $uPath`
 declare -a allFiles=($FID)
 declare -a dirFiles=()
 declare -a regFiles=()
+declare -a urlLIne=()
 
 for f in ${allFiles[@]}
 do 
@@ -37,22 +43,20 @@ do
         dirFiles[${#dirFiles[@]}]=$f
     #Adding files name to the regFiles array
     else
-        regFiles[${#regFiles[@]}]=$f
+        #Check files match Extension
+        if [ ${f: -${#uExt}} == "$uExt" ]
+        then
+            regFiles[${#regFiles[@]}]=$f
+        fi
     fi
 done 
 
-
-echo 
-echo "DIRECTORIES"
-for i in ${dirFiles[@]}
-do
-    echo $i
-done
-echo
-echo "FILES"
 for j in ${regFiles[@]}
 do
-    echo $j
+    urlLIne[${#urlLIne[@]}]=`grep -n https[:/.~/\a-zA-Z0-9]* $j | cut -d: -f 1`
 done
 
-
+for x in ${urlLIne[@]}
+do
+    echo $x
+done
