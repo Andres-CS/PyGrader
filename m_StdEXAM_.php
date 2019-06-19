@@ -469,7 +469,7 @@ array_push($ans,$result);
 
 
 /*URL TO BACK SERVER*/
-$url = "https://web.njit.edu/~pio3/CS490/exam/submitexam.php";
+$url = " SERVER ADDRESS, HTTPS URL ";
 
 //cURL to Back Server
 echo http_post_back_server($url, json_encode($ans));

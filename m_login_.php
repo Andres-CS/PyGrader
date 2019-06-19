@@ -6,7 +6,7 @@ include "m_curlFunction_.php";
 $indata = file_get_contents("php://input");
 
 //---- CONTACTING BACK SERVER ----
-$url = "https://web.njit.edu/~pio3/CS490/loginquery.php";
+$url = " SERVER ADDRESS, HTTPS URL ";
 
 echo http_post_back_server($url, $indata);
 
