@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+    nginx:
+        build: ./nginx/
+        ports:
+            - 80:80
+        links:
+            - php
+        working_dir: /var/www/html
+        volumes:
+            - /home/$USER/Dev/Apps/pythongrader/NJIT-CS490-PyExamGrader/Docker/nginx/config/default.conf:/etc/nginx/conf.d/default.conf
+            - /home/$USER/Dev/Apps/pythongrader/NJIT-CS490-PyExamGrader/src:/var/www/html
+        
+    php:
+        build: ./php/
+        working_dir: /var/www/html
+        volumes:
+            - /home/$USER/Dev/Apps/pythongrader/NJIT-CS490-PyExamGrader/Docker/php/config/www.conf:/etc/php7/php-fpm.d/www.conf
+            - /home/$USER/Dev/Apps/pythongrader/NJIT-CS490-PyExamGrader/src:/var/www/html:ro
+        ports:
+            - 9000:9000
