@@ -48,7 +48,7 @@ Once the student is done taking the exam, he/she submits the exam then a grading
 The system uses the  [Modle View Controller (MVC)](https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm) model.
 
 
-![System Design](LINK) 
+![System Design](https://github.com/Andres-CS/PyGrader/blob/NJIT-CS490/Images/SystemDesign(1).png?raw=true) 
 
 
  **Notes:**
