@@ -55,9 +55,9 @@ The system uses the  [Modle View Controller (MVC)](https://www.tutorialspoint.co
 
 This Repo belongs to the middle section. It is not the entire system. Please continue reading.
 
-The :muscle:main file:muscle: in the middle section, the actual grading systme is **m_StdEXAM_.php**.
+The :muscle:main file:muscle: in the middle section, the actual grading systme is [**m_StdEXAM_.php**](https://github.com/Andres-CS/PyGrader/blob/NJIT-CS490/Src/m_StdEXAM_.php).
 
-Last, given the way the info was passed from the **front** I created a **parsing** file that structures the data for my better use. 
+Last, given the way the info was passed from the **front** I created a [**parsing**](https://github.com/Andres-CS/PyGrader/blob/NJIT-CS490/Src/ParseOBJ_Grading.php) file that structures the data for my better use. 
 
 For this project we had 3 front-ends, a single middle and back.
  
